@@ -22,7 +22,9 @@ let {
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.baseUrl ? config.site.baseUrl : "http://examplesite.com",
+  site: 'https://saadsaif97.github.io/Folex-blog/',
+  base: '/Folex-blog/',
+  output: 'static',
   trailingSlash: config.site.trailingSlash ? "always" : "never",
   i18n: {
     locales: enabledLanguages,
